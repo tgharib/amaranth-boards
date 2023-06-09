@@ -4,7 +4,7 @@ import subprocess
 from amaranth.build import *
 from amaranth.vendor.lattice_nexus import *
 from amaranth import *
-from resources import *
+from .resources import *
 
 __all__ = ["LIFCLEVNPlatform"]
 
