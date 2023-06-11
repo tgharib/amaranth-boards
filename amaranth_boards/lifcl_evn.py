@@ -91,7 +91,7 @@ class LIFCLEVNPlatform(LatticeNexusPlatform):
         *LEDResources(pins={8: "R17", 9: "R18", 10: "U20", 11: "T20", 12: "W20", 13: "V20"}, invert=True,
                               attrs=Attrs(IO_TYPE=bank2_iostandard)),
 
-        *ButtonResources(pins="G14 G15 G19", invert=True,
+        *ButtonResources(pins="G14 G15", invert=True,
                          attrs=Attrs(IO_TYPE=bank1_iostandard)),
 
         *SwitchResources(pins={0: "N14", 1: "M14", 2: "M16", 3: "M15", 4: "N15", 5: "N16", 6: "M17", 7: "M18"}, invert=True, 
